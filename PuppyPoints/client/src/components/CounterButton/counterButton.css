@@ -1,0 +1,15 @@
+div {
+    width: 390px;
+    height: 310px;
+}
+
+img {
+    width: 24rem;
+}
+
+img:active {
+    width: 23.5rem;
+    position: relative;
+    bottom: .15rem;
+    left: .15rem;
+}

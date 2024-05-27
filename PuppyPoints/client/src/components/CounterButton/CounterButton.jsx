@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react'
+import boneButton from "../../assets/dogBonePaw.png";
+import './counterButton.css';
 import axios from 'axios'
 
 const CounterButton = (props) => {
@@ -10,10 +12,11 @@ const CounterButton = (props) => {
     };
 
     return (
-        <button onClick={plusOne}>Click</button>
+        <div>
+            <img src={boneButton} alt="dog bone with paw" onClick={plusOne} />
+        </div>
     )
 
 }
-
 
 export default CounterButton;
